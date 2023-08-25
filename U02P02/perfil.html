@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    <header style="color: aqua;">
+        <nav style="color: black;">
+            <ul style="color: blueviolet;">
+                <li>
+                    <a href="./index.html">home</a>
+                </li>
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+                <li>
+                    <a href="./perfil.html">perfil</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <h1>Perfil de estudiante</h1>
+    <div>
+        <fieldset>
+            <legend>Formulario de inscripcion</legend>
+            <label for="estudiante"></label>
+            <input type="text" value="ESTUDIANTE" size="8" readonly><br>
+
+            <label for="Nombre">Ingrese Nombre Completo</label><br>
+            <input type="text" name="name" placeholder="Username"><br>
+
+            <label for="email">Ingrese Email</label><br>
+            <input type="email" placeholder="name@example.com" name="email"><br>
+
+            <label for="edad">Ingrese su edad</label><br>
+            <input type="date" name="age" id="age"><br>
+
+            <label for="nacionalidad">Seleccione su nacionalidad</label><br>
+            <select name="nationality" id="nationality">
+                <option value="Uruguay">Uruguay</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Chile">Chile</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Peru">Peru</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+            </select><br>
+
+            <label for="laboral">Seleccione su situacion laboral</label><br>
+            <select name="laboral" id="laboral">
+                <option value="">Desempleado</option>
+                <option value="">En busqueda laboral</option>
+                <option value="">Trabajo Part Time</option>
+                <option value="">Trabajo FullTime</option>
+            </select><br>
+            <input type="button" value="Enviar">
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Gustos del Estudiante</legend>
+            <label for="musica">Ingrese sus gustos musicales</label>
+            <input type="text" name="music"><br>
+
+            <label for="comida">Seleccione cual de estas es su comida preferida</label>
+            <select name="comida" id="comida">
+                <option value="Milanesa">Milanesa</option>
+                <option value="Pastas">Pastas</option>
+                <option value="Asado">Asado</option>
+                <option value="Ensalada">Ensalada</option>
+                <option value="Arroz">Arroz</option>
+                <option value="Otro">Otro</option>
+
+            </select><br>
+            <input type="checkbox" name="" id="">
+            <label for="check">Recordar mis datos</label><br>
+            <input type="button" value="Enviar">
+        </fieldset>
+    </div>
+
+</body>
+</html>
